@@ -42,9 +42,9 @@ public class Main extends PApplet {
 		jr = new JoonsRenderer(this);
 		jr.setSampler("bucket");
 		jr.setSizeMultiplier(1);
-		jr.setAA(0, 2);
-		jr.setCaustics(20, 350, 0.5f); // emitInMillions, gather, radius
-		jr.setTraceDepths(4, 8, 8); // diffusive, reflective, refractive
+		jr.setAA(-2, 0);
+		jr.setCaustics(2, 150, 0.5f); // emitInMillions, gather, radius
+		jr.setTraceDepths(1, 2, 2); // diffusive, reflective, refractive
 		
 		cam = new PeasyCam(this, centerX, centerY, centerZ, eyeZ);
 		cam.setMinimumDistance(50);
@@ -74,7 +74,7 @@ public class Main extends PApplet {
 		
 		jr.endRecord();
 		jr.displayRendered(true);
-		saveFrame("frames/shard-####.png");
+		//saveFrame("frames/shard-####.png");
 	}
 	
 	public void drawShards() {
@@ -128,6 +128,7 @@ public class Main extends PApplet {
 	}
 	
 	public void keyPressed() {
+		println("pressed");
 		if (key == 'r' || key == 'R') jr.render(); //Press 'r' key to start rendering.
 	}
 	
