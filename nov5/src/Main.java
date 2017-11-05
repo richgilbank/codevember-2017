@@ -60,7 +60,7 @@ public class Main extends PApplet {
 	}
 	
 	public void renderScene() {
-		jr.render();
+//		jr.render();
 		jr.beginRecord();
 		
 		camera(eyeX, eyeY, eyeZ, centerX, centerY, centerZ, upX, upY, upZ);
@@ -75,7 +75,7 @@ public class Main extends PApplet {
 		
 		jr.endRecord();
 		jr.displayRendered(true);
-		saveFrame("frames/" + hour() + minute() + second() + ".png");
+//		saveFrame("frames/" + hour() + minute() + second() + ".png");
 	}
 	
 	public void drawShards() {
