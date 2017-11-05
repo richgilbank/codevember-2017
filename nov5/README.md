@@ -1,7 +1,6 @@
-# Nov 4
+# Nov 5
 
-Shards
 Generated in Processing using [Joon's Renderer](https://github.com/joonhyublee/joons-renderer/). 
 
 ### Demo: 
-![](https://pbs.twimg.com/media/DN0XoqzUQAA4xAb.jpg:large)
+![](https://pbs.twimg.com/media/DN5m0xEUEAAdhuP.jpg:large)
