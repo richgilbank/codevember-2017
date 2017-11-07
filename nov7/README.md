@@ -1,6 +1,6 @@
-# Nov 5
+# Nov 7
 
-Generated in Processing using [Joon's Renderer](https://github.com/joonhyublee/joons-renderer/). 
+Another project with Processing + Joon's Renderer / Sunflow.
 
 ### Demo: 
-![](https://pbs.twimg.com/media/DN5m0xEUEAAdhuP.jpg:large)
+![](https://pbs.twimg.com/media/DOEPU7rVAAAQzyR.jpg:large)
